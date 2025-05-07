@@ -1,0 +1,20 @@
+*.secret
+data/
+
+# pyenv local environment
+.python-version
+
+# build systems
+dist/
+*.egg-info/
+
+# python internals
+__pycache__/
+.mypy_cache/
+
+# vscode
+.vscode/
+
+# test results
+.coverage
+.pytest_cache/
