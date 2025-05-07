@@ -1,6 +1,0 @@
-import typing
-
-F = typing.TypeVar("F", bound=typing.Callable[..., typing.Any])
-
-def sleep_and_retry(func: F) -> F: ...
-def limits(calls: int = ..., period: int = ...) -> typing.Callable[[F], F]: ...
